@@ -15,29 +15,53 @@
    
 
     <!-- image link-->
-    <img src="images/team_logo.png" alt="Team Logo" width="100" height="100"/>
+    <img src="./assets/images/free.png" alt="Team Logo" width="100" height="100"/>
      <!--nav link div-->
 
 <div class="nav-links">
 
     <nav>
-      <a href="na">Home</a>
+      <a href="#">Home</a>
       <a href="#">About</a>
       <a href="#">Contact</a>
     </nav>
 </div>
   </header>
 
+
+
+
+
   <!-- Main Content -->
   <main>
     <section class="hero">
       <h2>Welcome</h2>
-      <p>This is a simple website built with HTML, CSS, and JavaScript.</p>
-      <button id="clickMeBtn">change Me</button>
+      <p>This is a simple website built with HTML, CSS, and JavaScript. Discover amazing content and features designed just for you.</p>
+      <img src="./assets/images/life.jfif" alt="Hero Image" class="hero-image"/>
+      <div class="hero-buttons">
+        <button id="clickMeBtn" class="btn btn-primary">Get Started</button>
+        <button id="learnMoreBtn" class="btn btn-secondary">Learn More</button>
+      </div>
     </section>
   </main>
 
   <p>This is the updated version </p>
+  <!--contact us form-->
+  <section class="contact-section">
+    <h2>Contact Us</h2>
+    <form id="contactForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
 
   <!-- Footer -->
   <footer class="footer">
